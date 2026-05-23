@@ -1,0 +1,5 @@
+V1 = float(input("Скорость V1 (км/ч): "))
+V2 = float(input("Скорость V2 (км/ч): "))
+S = float(input("Расстояние S (км): "))
+time = S / (V1 + V2)
+print(f"Время до встречи: {time} ч")
